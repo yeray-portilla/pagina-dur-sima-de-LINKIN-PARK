@@ -93,13 +93,16 @@ body {
   letter-spacing: 2px;
 }
 
+/* SOLO MODIFICADO: Video mejorado */
 #Galeria video {
   width: 80%;
   max-width: 800px;
-  height: auto;
+  height: 450px; /* Altura fija para mejor proporción */
   border-radius: 10px;
   margin-bottom: 40px;
   box-shadow: 0 0 20px rgba(140, 0, 255, 0.3);
+  object-fit: cover; /* Para que el video se ajuste bien al contenedor */
+  border: 2px solid #8c00ff;
 }
 
 #Galeria .imagenes {
@@ -109,18 +112,21 @@ body {
   gap: 15px;
 }
 
+/* SOLO MODIFICADO: Imágenes mejoradas */
 #Galeria img {
-  width: 250px;
-  height: 180px;
-  object-fit: cover;
+  width: 280px; /* Tamaño ligeramente mayor */
+  height: 200px; /* Altura proporcional */
+  object-fit: cover; /* Para que las imágenes mantengan proporción */
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(140, 0, 255, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #333; /* Borde sutil */
 }
 
 #Galeria img:hover {
-  transform: scale(1.1);
+  transform: scale(1.08); /* Efecto hover más suave */
   box-shadow: 0 0 25px rgba(140, 0, 255, 0.6);
+  border-color: #8c00ff; /* Borde color al hacer hover */
 }
 
 #gira_completa {
