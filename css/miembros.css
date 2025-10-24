@@ -1,0 +1,83 @@
+/* Reset y estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #111;
+  color: white;
+}
+
+
+
+
+
+
+.miembros {
+  background-color: #111;
+  border: 2px solid #8c00ff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 0 15px rgba(140, 0, 255, 0.3);
+}
+
+.miembros h2 {
+  margin-bottom: 2rem;
+  color: #b00df0;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(176, 13, 240, 0.5);
+}
+
+.miembro {
+  background-color: #222;
+  border: 1px solid #8c00ff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 10px rgba(140, 0, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.miembro:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px rgba(140, 0, 255, 0.4);
+}
+
+.miembro.chester {
+  border-color: #ff0000;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+}
+
+.miembro.chester:hover {
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+}
+
+.miembro.current {
+  border-color: #00ff00;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+.miembro.current:hover {
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+}
+
+.miembro h3 {
+  color: #b00df0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.miembro p {
+  line-height: 1.6;
+}
+
+.miembro strong {
+  color: #8c00ff;
+}
+
